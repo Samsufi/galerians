@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2018 The Galerians developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -167,24 +167,24 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "test galerians koin";
+        const char* pszTimestamp = "Galerians, vous êtes les techno-architectes de cette ère méta...";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 250 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04c10e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1300000000;
+        genesis.nTime = 1527458814;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 1418885;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256(""));
-        assert(genesis.hashMerkleRoot == uint256(""));
+        assert(hashGenesisBlock == uint256("0x000007b675bc4a01253791231337be9b87ce659856655a55e066d6bacb206446"));
+        assert(genesis.hashMerkleRoot == uint256("0x4080dd1e6cccd30315d4ba2e616707b8144cce6abe135d8420f450123d624c34"));
 
         vSeeds.push_back(CDNSSeedData("localhost", "localhost"));
         // vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "galerians.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
@@ -284,11 +284,11 @@ public:
         nRejectOldSporkKey = 1522454400; //!> Reject old spork key after Saturday, March 31, 2018 12:00:00 AM GMT
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1454124731;
-        genesis.nNonce = 2402015;
+        genesis.nTime = 1527458814;
+        genesis.nNonce = 1418885;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256(""));
+        assert(hashGenesisBlock == uint256("0x000007b675bc4a01253791231337be9b87ce659856655a55e066d6bacb206446"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -354,14 +354,13 @@ public:
         nTargetTimespan = 24 * 60 * 60; // GAL: 1 day
         nTargetSpacing = 1 * 60;        // GAL: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1454124731;
-        genesis.nBits = 0x207fffff;
-        genesis.nNonce = 12345;
-
+        genesis.nTime = 1527458814;
+        genesis.nBits = 0x1e0ffff0;
+        genesis.nNonce = 1418885;
         hashGenesisBlock = genesis.GetHash();
         // nDefaultPort = 51476;
         nDefaultPort = 10000;
-        assert(hashGenesisBlock == uint256(""));
+        assert(hashGenesisBlock == uint256("0x000007b675bc4a01253791231337be9b87ce659856655a55e066d6bacb206446"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
