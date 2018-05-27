@@ -433,8 +433,8 @@
         <translation>İşlem geçmişini ara</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Gizlilik Aksiyonları zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Gizlilik Aksiyonları zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1911,24 +1911,24 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>zPIV Otomatik basımı etkinleştir</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>zGAL Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zPIV'ye dönüştürülen gelen PIV yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zGAL'ye dönüştürülen gelen PIV yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Otomatikleştirilmiş zPIV yüzdesi</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Otomatikleştirilmiş zGAL yüzdesi</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Bu mezhebi için yeterli PIV bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Tercih edilen Automint zPIV Nominal değeri</translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Tercih edilen Automint zGAL Nominal değeri</translation>
     </message>
     <message>
         <source>Connect to the GAL network through a SOCKS5 proxy.</source>
@@ -2102,8 +2102,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Güncel GAL bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Bakiyesi</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL Bakiyesi</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GAL network after a connection is established, but this process has not completed yet.</source>
@@ -2150,8 +2150,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Harcanabilir:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Kilitli PIV veya Masternode teminatları. Bunlar zPIV matlaştırmadan çıkarılır.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Kilitli PIV veya Masternode teminatları. Bunlar zGAL matlaştırmadan çıkarılır.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2162,8 +2162,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>onaylanmamış:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Güncel zPIV bakiyeniz, onaylanmamış ve olgunlaşmamış zPIV'ler dahil.</translation>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
+        <translation>Güncel zGAL bakiyeniz, onaylanmamış ve olgunlaşmamış zGAL'ler dahil.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2174,10 +2174,10 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>senkronizasyon dışı</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Mevcut zPIV yüzdesi.
+        <translation>Mevcut zGAL yüzdesi.
 AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi etrafında düzelir (varsayılan = 10%).
 </translation>
     </message>
@@ -2321,8 +2321,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in galerians.
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2385,24 +2385,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in galerians.
         <translation>Harca Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zPIV</translation>
+        <source>Available (mature and spendable) zGAL for spending</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zGAL</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Kullanılabilir Bakiye:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zPIV
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zGAL
 
-zPIV, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
+zGAL, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2473,8 +2473,8 @@ zPIV, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhep
         <translation>Zerocoin durumu:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Doğrulanmamış ve olgunlaşmamış zPIV dahil toplam bakiye</translation>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
+        <translation>Doğrulanmamış ve olgunlaşmamış zGAL dahil toplam bakiye</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2629,12 +2629,12 @@ zPIV, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhep
         <translation>Miktarı kopyala</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV bakım nedeniyle şu an kullanıma kapalı.</translation>
+        <source>zGAL is currently disabled due to maintenance.</source>
+        <translation>zGAL bakım nedeniyle şu an kullanıma kapalı.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV halen bakım alıyor.</translation>
+        <source>zGAL is currently undergoing maintenance.</source>
+        <translation>zGAL halen bakım alıyor.</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2657,8 +2657,8 @@ zPIV, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhep
         <translation>Başarılı şekilde mint edildi</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV in </translation>
+        <source> zGAL in </source>
+        <translation> zGAL in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -4464,7 +4464,7 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Adet</translation>
@@ -4474,8 +4474,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>

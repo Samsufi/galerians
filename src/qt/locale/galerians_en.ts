@@ -557,7 +557,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zPIV</source>
+        <source>Privacy Actions for zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2452,22 +2452,22 @@ https://www.transifex.com/galerians-project/galerians-project-translations</sour
     </message>
     <message>
         <location line="-169"/>
-        <source>Enable automatic minting of PIV units to zPIV</source>
+        <source>Enable automatic minting of PIV units to zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Enable zPIV Automint</source>
+        <source>Enable zGAL Automint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zPIV</source>
+        <source>Percentage of autominted zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2478,7 +2478,7 @@ https://www.transifex.com/galerians-project/galerians-project-translations</sour
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zPIV Denomination</source>
+        <source>Preferred Automint zGAL Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2724,14 +2724,14 @@ https://www.transifex.com/galerians-project/galerians-project-translations</sour
     </message>
     <message>
         <location line="+96"/>
-        <source>zPIV Balance</source>
+        <source>zGAL Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+53"/>
         <location line="+17"/>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zGAL are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2804,7 +2804,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+191"/>
         <location line="+19"/>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2820,7 +2820,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+58"/>
         <location line="+19"/>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2836,7 +2836,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+105"/>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -3027,7 +3027,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-371"/>
         <location line="+651"/>
-        <source>zPIV</source>
+        <source>zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3093,17 +3093,17 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="+182"/>
         <location line="+52"/>
-        <source>Enter an amount of Piv to convert to zPIV</source>
+        <source>Enter an amount of Piv to convert to zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+301"/>
-        <source>zPIV Control</source>
+        <source>zGAL Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zPIV Selected:</source>
+        <source>zGAL Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3131,7 +3131,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zPIV for spending</source>
+        <source>Available (mature and spendable) zGAL for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3141,9 +3141,9 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3158,7 +3158,7 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
         <location line="+31"/>
         <location line="+31"/>
         <location line="+31"/>
-        <source>0 zPIV</source>
+        <source>0 zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3249,7 +3249,7 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
     <message>
         <location line="+68"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3282,14 +3282,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+40"/>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zGAL minting.
 
 To change the status (restart required):
 - enable: add &apos;enablezeromint=1&apos; to galerians.conf
 - disable: add &apos;enablezeromint=0&apos; to galerians.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zGAL
 
 </source>
         <translation type="unfinished"></translation>
@@ -3523,12 +3523,12 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="+442"/>
-        <source>zPIV Spend #: </source>
+        <source>zGAL Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>zPIV Mint</source>
+        <source>zGAL Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3549,13 +3549,13 @@ To change the percentage (no restart required):
     <message>
         <location line="+10"/>
         <location line="+4"/>
-        <source>zPIV is currently disabled due to maintenance.</source>
+        <source>zGAL is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-637"/>
         <location line="+111"/>
-        <source>zPIV is currently undergoing maintenance.</source>
+        <source>zGAL is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3666,7 +3666,7 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="+0"/>
-        <source> zPIV in </source>
+        <source> zGAL in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3756,13 +3756,13 @@ Please be patient...</source>
     <message>
         <location line="+13"/>
         <location line="+32"/>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-31"/>
         <location line="+32"/>
-        <source>Failed to spend zPIV</source>
+        <source>Failed to spend zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3796,7 +3796,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message numerus="yes">
         <location line="+335"/>
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of PIV to convert to zPIV</comment>
+        <comment>Enter an amount of PIV to convert to zGAL</comment>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -4227,7 +4227,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+29"/>
-        <source>Custom zPIV Backup Path:</source>
+        <source>Custom zGAL Backup Path:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5810,7 +5810,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>zPIV Stake</source>
+        <source>zGAL Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5835,37 +5835,37 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>Converted PIV to zPIV</source>
+        <source>Converted PIV to zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zPIV</source>
+        <source>Spent zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received PIV from zPIV</source>
+        <source>Received PIV from zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zPIV from zPIV Spend</source>
+        <source>Minted Change as zGAL from zGAL Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zPIV to PIV</source>
+        <source>Converted zGAL to PIV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+56"/>
-        <source>Anonymous (zPIV Transaction)</source>
+        <source>Anonymous (zGAL Transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Anonymous (zPIV Stake)</source>
+        <source>Anonymous (zGAL Stake)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6129,12 +6129,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-280"/>
-        <source>Received PIV from zPIV</source>
+        <source>Received PIV from zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Zerocoin Spend, Change in zPIV</source>
+        <source>Zerocoin Spend, Change in zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6219,10 +6219,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
-        <location filename="../forms/zpivcontroldialog.ui" line="+20"/>
-        <source>Select zPIV to Spend</source>
+        <location filename="../forms/zgalcontroldialog.ui" line="+20"/>
+        <source>Select zGAL to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6238,7 +6238,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zPIV</source>
+        <source>zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6321,7 +6321,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+5"/>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zGAL minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6331,7 +6331,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for zGAL inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7076,7 +7076,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+9"/>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
+        <source>Reindex the PIV and zGAL money supply statistics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7168,7 +7168,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <source>Specify custom backup path to add a copy of any automatic zGAL backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7793,7 +7793,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Syncing zPIV wallet...</source>
+        <source>Syncing zGAL wallet...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7978,7 +7978,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
+        <source>Value is below the smallest available denomination (= 1) of zGAL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7998,7 +7998,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

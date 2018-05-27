@@ -433,8 +433,8 @@
         <translation>Afficher l'historique de transaction</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Actions confidentielles pour zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Actions confidentielles pour zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -2286,7 +2286,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantité </translation>

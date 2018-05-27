@@ -1302,8 +1302,8 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>0.000 000 00 PIV</source>
@@ -1322,8 +1322,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1959,7 +1959,7 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantitat</translation>
@@ -1969,8 +1969,8 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     </context>
 <context>

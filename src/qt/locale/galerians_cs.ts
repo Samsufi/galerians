@@ -397,8 +397,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Řešení soukromí pro zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Řešení soukromí pro zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -2395,7 +2395,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

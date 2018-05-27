@@ -409,8 +409,8 @@
         <translation>Olhar histórico de transação</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Ações privadas para zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Ações privadas para zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1958,8 +1958,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>0.000 000 00 PIV</source>
@@ -2038,8 +2038,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Estatísticas zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Balanço Total incluindo não confirmadas e imaturas zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
+        <translation>Balanço Total incluindo não confirmadas e imaturas zGAL</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -3635,7 +3635,7 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantia</translation>
@@ -3645,8 +3645,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>

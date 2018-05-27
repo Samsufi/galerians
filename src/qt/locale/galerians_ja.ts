@@ -269,7 +269,7 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     </context>
 <context>
     <name>galerians-core</name>

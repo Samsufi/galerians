@@ -433,8 +433,8 @@
         <translation>Transaktionsverlauf durchsehen</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Anonyme Aktionen für zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Anonyme Aktionen für zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1939,28 +1939,28 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Port mit &amp;UPnP mappen</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Aktivieren Sie die automatische Prägung von PIV-Einheiten zu zPIV</translation>
+        <source>Enable automatic minting of PIV units to zGAL</source>
+        <translation>Aktivieren Sie die automatische Prägung von PIV-Einheiten zu zGAL</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Aktivieren Sie zPIV Automint</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Aktivieren Sie zGAL Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Anteil des eingehenden PIV, welcher automatisch zu zPIV via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Anteil des eingehenden PIV, welcher automatisch zu zGAL via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Prozentsatz der automatisierten zPIV</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Prozentsatz der automatisierten zGAL</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend PIV für diese Stückelung verfügbar ist</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Bevorzugte automatisierte zPIV Stückelung </translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Bevorzugte automatisierte zGAL Stückelung </translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2150,14 +2150,14 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Ihr aktueller GAL-Saldo, unbestätigte und unreife Transaktionen sind enthalten</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Bilanzen</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL Bilanzen</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zGAL are spendable.</source>
         <translation>Ausgereift: Mehr als 20 Bestätigungen und mehr als 1 Prägungen der selben Stückelung nach erfolgter Prägung.
-Diese zPIV sind Verwendbar.</translation>
+Diese zGAL sind Verwendbar.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2210,8 +2210,8 @@ Unreif: Bestätigt, aber keine Prägung in der selben Stückelung seit erfolgter
         <translation>Verfügbar:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Gesperrte PIV oder Masternode Pfand. Diese sind vom zPIV Prägen ausgeschlossen.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Gesperrte PIV oder Masternode Pfand. Diese sind vom zGAL Prägen ausgeschlossen.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2222,8 +2222,8 @@ Unreif: Bestätigt, aber keine Prägung in der selben Stückelung seit erfolgter
         <translation>Unbestätigt:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Ihre aktuelle zPIV-Bilanz, unbestätigte und unreife zPIV enthalten.</translation>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
+        <translation>Ihre aktuelle zGAL-Bilanz, unbestätigte und unreife zGAL enthalten.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2234,10 +2234,10 @@ Unreif: Bestätigt, aber keine Prägung in der selben Stückelung seit erfolgter
         <translation>nicht synchron</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Aktueller Prozentsatz an zPIV.
+        <translation>Aktueller Prozentsatz an zGAL.
 Falls das automatische Prägen aktiviert ist, wird sich dieser Prozentsatz um den eingestellten Prozentsatz fürs automatisierte Prägen einpendeln (Standard = 10%).
 </translation>
     </message>
@@ -2381,8 +2381,8 @@ Um das automatische Prägen zu aktivieren ändere 'enablezeromint=0' zu 'enablez
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2433,16 +2433,16 @@ Um das automatische Prägen zu aktivieren ändere 'enablezeromint=0' zu 'enablez
         <translation>PRIVATSPHÄRE</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
-        <translation>Geben Sie den Betrag ein, den sie von PIV in zPIV umwandeln möchten</translation>
+        <source>Enter an amount of Piv to convert to zGAL</source>
+        <translation>Geben Sie den Betrag ein, den sie von PIV in zGAL umwandeln möchten</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Control</translation>
+        <source>zGAL Control</source>
+        <translation>zGAL Control</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV ausgewählt:</translation>
+        <source>zGAL Selected:</source>
+        <translation>zGAL ausgewählt:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2457,24 +2457,24 @@ Um das automatische Prägen zu aktivieren ändere 'enablezeromint=0' zu 'enablez
         <translation>Überweise Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Verfügbare (ausgereifte und aufwendbare) zPIV zum Überweisen</translation>
+        <source>Available (mature and spendable) zGAL for spending</source>
+        <translation>Verfügbare (ausgereifte und aufwendbare) zGAL zum Überweisen</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Verfügbare Bilanz:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Verfügbare (ausgereifte und aufwendbare) zPIV zum Überweisen
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Verfügbare (ausgereifte und aufwendbare) zGAL zum Überweisen
 
-zPIV sind ausgereift wenn sie mehr als 20 Bestätigungen und mehr als 2 Prägungen in der selben Stückelung nach erfolgter Prägung halten.</translation>
+zGAL sind ausgereift wenn sie mehr als 20 Bestätigungen und mehr als 2 Prägungen in der selben Stückelung nach erfolgter Prägung halten.</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2545,8 +2545,8 @@ zPIV sind ausgereift wenn sie mehr als 20 Bestätigungen und mehr als 2 Prägung
         <translation>Zerocoin Statistiken:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Totales Guthaben, einschließlich unbestätigter und unreifer zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
+        <translation>Totales Guthaben, einschließlich unbestätigter und unreifer zGAL</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2567,24 +2567,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Unreif: Bestätigt, aber keine Prägung in der selben Stückelung seit erfolgter Prägung</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zGAL minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to galerians.conf
 - disable: add 'enablezeromint=0' to galerians.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zGAL
 
 </source>
-        <translation>Zeigt den aktuellen Status der automatischen zPIV-Prägung an
+        <translation>Zeigt den aktuellen Status der automatischen zGAL-Prägung an
 
 Um den Status zu ändern (Neustart erforderlich): 
 - enable: füge 'enablezeromint = 1' zu galerians.conf hinzu
 - disable: füge 'enablezeromint = 0' zu galerians.conf hinzu
 
 Um den Prozentsatz zu ändern (kein Neustart erforderlich): 
-- Menü Einstellungen-&gt; Optionen-&gt; Prozentsatz der autom. zPIV
+- Menü Einstellungen-&gt; Optionen-&gt; Prozentsatz der autom. zGAL
 </translation>
     </message>
     <message>
@@ -2760,12 +2760,12 @@ Um den Prozentsatz zu ändern (kein Neustart erforderlich):
         <translation>Betrag kopieren</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV Ausgeben #:</translation>
+        <source>zGAL Spend #: </source>
+        <translation>zGAL Ausgeben #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Prägen</translation>
+        <source>zGAL Mint</source>
+        <translation>zGAL Prägen</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2780,12 +2780,12 @@ Um den Prozentsatz zu ändern (kein Neustart erforderlich):
         <translation>Konfigurierter Zielprozentsatz: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV ist aktuell deaktiviert aufgrund von Wartungsarbeiten.</translation>
+        <source>zGAL is currently disabled due to maintenance.</source>
+        <translation>zGAL ist aktuell deaktiviert aufgrund von Wartungsarbeiten.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV unterliegt momentan Wartungsarbeiten.</translation>
+        <source>zGAL is currently undergoing maintenance.</source>
+        <translation>zGAL unterliegt momentan Wartungsarbeiten.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2872,8 +2872,8 @@ Um den Prozentsatz zu ändern (kein Neustart erforderlich):
         <translation>Erfolgreich geprägt</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV in </translation>
+        <source> zGAL in </source>
+        <translation> zGAL in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2946,12 +2946,12 @@ Rechnerisch aufwändig. Kann je nach ausgewähltem Sicherheitsstufe und Ihrer Ha
 Bitte haben Sie Geduld...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zPIV benötigen eine Sicherheitsstufe von 100 um erfolgreich ausgegeben werden zu können.</translation>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zGAL benötigen eine Sicherheitsstufe von 100 um erfolgreich ausgegeben werden zu können.</translation>
     </message>
     <message>
-        <source>Failed to spend zPIV</source>
-        <translation>zPIV Überweisung fehlgeschlagen</translation>
+        <source>Failed to spend zGAL</source>
+        <translation>zGAL Überweisung fehlgeschlagen</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2979,7 +2979,7 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of PIV to convert to zPIV</comment>
+        <comment>Enter an amount of PIV to convert to zGAL</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3296,8 +3296,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Benutzerdefinierter Sicherungspfad:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Benutzerdefinierter zPIV Sicherungspfad:</translation>
+        <source>Custom zGAL Backup Path:</source>
+        <translation>Benutzerdefinierter zGAL Sicherungspfad:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -4520,8 +4520,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>PIV Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zGAL Stake</source>
+        <translation>zGAL Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4540,32 +4540,32 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Verschleierung Erzeugung der Stückelung</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Umgewandeltes PIV zu zPIV</translation>
+        <source>Converted PIV to zGAL</source>
+        <translation>Umgewandeltes PIV zu zGAL</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Ausgegebene zPIV</translation>
+        <source>Spent zGAL</source>
+        <translation>Ausgegebene zGAL</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Empfangene PIV von zPIV</translation>
+        <source>Received PIV from zGAL</source>
+        <translation>Empfangene PIV von zGAL</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Geprägtes zPIV Wechselgeld aus zPIV Überweisung</translation>
+        <source>Minted Change as zGAL from zGAL Spend</source>
+        <translation>Geprägtes zGAL Wechselgeld aus zGAL Überweisung</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Umgewandeltes zPIV zu PIV</translation>
+        <source>Converted zGAL to PIV</source>
+        <translation>Umgewandeltes zGAL zu PIV</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonym (zPIV Transaktion)</translation>
+        <source>Anonymous (zGAL Transaction)</source>
+        <translation>Anonym (zGAL Transaktion)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonym (zPIV Stake)</translation>
+        <source>Anonymous (zGAL Stake)</source>
+        <translation>Anonym (zGAL Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4775,12 +4775,12 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Exportieren erfolgreich</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Empfangene PIV von zPIV</translation>
+        <source>Received PIV from zGAL</source>
+        <translation>Empfangene PIV von zGAL</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin Überweisung, Wechselgeld in zPIV</translation>
+        <source>Zerocoin Spend, Change in zGAL</source>
+        <translation>Zerocoin Überweisung, Wechselgeld in zGAL</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4848,10 +4848,10 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Wählen Sie die zPIV aus, die Sie ausgeben möchten</translation>
+        <source>Select zGAL to Spend</source>
+        <translation>Wählen Sie die zGAL aus, die Sie ausgeben möchten</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4862,8 +4862,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4929,16 +4929,16 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Veröffentlicht unter der MIT-Software-Lizenz, siehe die beigelegte Datei COPYING oder &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Aktiviere nach jeder zPIV-Prägung ausgelöste automatische Wallet-Backups (0-1, Standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zGAL minting (0-1, default: %u)</source>
+        <translation>Aktiviere nach jeder zGAL-Prägung ausgelöste automatische Wallet-Backups (0-1, Standard: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
         <translation>Aktiviere oder deaktiviere Staking-Funktionalität für PIV Eingänge (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Aktiviere oder deaktiviere Staking-Funktionalität für zPIV Eingänge (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zGAL inputs (0-1, default: %u)</source>
+        <translation>Aktiviere oder deaktiviere Staking-Funktionalität für zGAL Eingänge (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5533,8 +5533,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Prozent automatisch geprägter Zerocoins (1-100, Standard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Die Geldmengenstatistik PIV und zPIV neu indizieren</translation>
+        <source>Reindex the PIV and zGAL money supply statistics</source>
+        <translation>Die Geldmengenstatistik PIV und zGAL neu indizieren</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5609,8 +5609,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Bervorzugte Stückelung für automatisch geprägte Zerocoins (1/5/10/50/100/500/1000/5000), 0 falls keine bestimmte Stückelung präferiert wird. Standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Benutzerdefinierten Sicherungspfad festlegen, in den Kopien von allen automatischen zPIV-Sicherungen abgelegt werden. Wenn ein Verzeichnis ausgewählt ist, wird jede Sicherung als Datei mit Zeitstempel erstellt. Wenn eine Datei ausgewählt ist, wird diese Datei bei jeder Sicherung überschrieben. Wenn der Sicherungspfad auch festgelegt ist, werden 4 Sicherungen erstellt.</translation>
+        <source>Specify custom backup path to add a copy of any automatic zGAL backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Benutzerdefinierten Sicherungspfad festlegen, in den Kopien von allen automatischen zGAL-Sicherungen abgelegt werden. Wenn ein Verzeichnis ausgewählt ist, wird jede Sicherung als Datei mit Zeitstempel erstellt. Wenn eine Datei ausgewählt ist, wird diese Datei bei jeder Sicherung überschrieben. Wenn der Sicherungspfad auch festgelegt ist, werden 4 Sicherungen erstellt.</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6109,8 +6109,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Synchronisiere Sporks....</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Synchronisiere zPIV Wallet... </translation>
+        <source>Syncing zGAL wallet...</source>
+        <translation>Synchronisiere zGAL Wallet... </translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6257,8 +6257,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Benutzername für JSON-RPC-Verbindungen</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Der Betrag ist unterhalb des kleinsten Wertes (=1) an zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zGAL</source>
+        <translation>Der Betrag ist unterhalb des kleinsten Wertes (=1) an zGAL</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6273,8 +6273,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Verifiziere Wallet...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zPIV benötigen eine Sicherheitsstufe von 100 um erfolgreich ausgegeben werden zu können.</translation>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zGAL benötigen eine Sicherheitsstufe von 100 um erfolgreich ausgegeben werden zu können.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>

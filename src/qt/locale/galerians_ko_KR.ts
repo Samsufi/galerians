@@ -433,8 +433,8 @@
         <translation>트랜잭션 내역 보기</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>zPIV와 난독화를 위한 프라이버스 작업</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>zGAL와 난독화를 위한 프라이버스 작업</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1948,28 +1948,28 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Enable automatic minting of PIV units to zPIV</translation>
+        <source>Enable automatic minting of PIV units to zGAL</source>
+        <translation>Enable automatic minting of PIV units to zGAL</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>zPIV 자동생성 활성화</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>zGAL 자동생성 활성화</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>PIV수신시 자동변환 zPIV 퍼센트 (최소값:10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>PIV수신시 자동변환 zGAL 퍼센트 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>자동 변환되는 zPIV 퍼센트</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>자동 변환되는 zGAL 퍼센트</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>이 디노미네이션의 PIV가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>선호하는 자동생성 zPIV 디노미네이션 </translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>선호하는 자동생성 zGAL 디노미네이션 </translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2159,14 +2159,14 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>현재 GAL 잔액, 미확정, 생성중인 코인 포함</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV 잔액</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL 잔액</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zGAL are spendable.</source>
         <translation>성숙한 : 그것이 발행 된 후 같은 명칭의 20 개 이상의 확인 및 1 개 민트.
-이 zPIV는 쓸만합니다.</translation>
+이 zGAL는 쓸만합니다.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2219,8 +2219,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>출금 가능 액수:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>잠금 PIV 또는 Masternode collaterals. 이들은 zPIV minting에서 제외됩니다.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>잠금 PIV 또는 Masternode collaterals. 이들은 zGAL minting에서 제외됩니다.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2231,8 +2231,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>미승인:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>zPIV 잔액, 미확정, 생성중인 zPIV 포함.</translation>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
+        <translation>zGAL 잔액, 미확정, 생성중인 zGAL 포함.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2243,10 +2243,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>동기화되지 않음</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>현재 zPIV의 백분율 .
+        <translation>현재 zGAL의 백분율 .
 자동 저장 기능이 활성화 된 경우이 비율은 구성된 자동 저장 비율 (기본값 = 10 %)을 기준으로 정해집니다.</translation>
     </message>
     <message>
@@ -2389,8 +2389,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in galerians.
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2441,8 +2441,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in galerians.
         <translation>프라이버시</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
-        <translation>zPIV로 변환할 PIV 수량을 입력하세요.</translation>
+        <source>Enter an amount of Piv to convert to zGAL</source>
+        <translation>zGAL로 변환할 PIV 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2457,24 +2457,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in galerians.
         <translation>제로코인 보내기</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>전송 가능한 zPIV</translation>
+        <source>Available (mature and spendable) zGAL for spending</source>
+        <translation>전송 가능한 zGAL</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>지출에 사용할 수있는 성숙한 소비재 zPIV
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>지출에 사용할 수있는 성숙한 소비재 zGAL
 
-zPIV는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
+zGAL는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2545,7 +2545,7 @@ zPIV는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 �
         <translation>제로코인 상태 :</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
         <translation>승인중이거나, 생성중인 제로코인도 포함된 전체 잔액입니다.</translation>
     </message>
     <message>
@@ -2567,24 +2567,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 미성숙 : 확인되었지만 발행 된 후 같은 종파 1 개 미만</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zGAL minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to galerians.conf
 - disable: add 'enablezeromint=0' to galerians.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zGAL
 
 </source>
-        <translation>현재 zPIV 자동 생성 상태를 보여줍니다.
+        <translation>현재 zGAL 자동 생성 상태를 보여줍니다.
 
 자동생성 상태를 변경하시려면 (지갑 재시작 필요함):
 - 활성화: 'enablezeromint=1' 를 galerians.conf 파일에 추가
 - 비활성화: 'enablezeromint=0' 를 galerians.conf 파일에 추가
 
 자동 생성 비율 변경하시려면 (지갑 재시작 필요없음):
-- 메뉴 설정-&gt;옵션-&gt;zPIV 자동생성 비율
+- 메뉴 설정-&gt;옵션-&gt;zGAL 자동생성 비율
 
 </translation>
     </message>
@@ -2773,12 +2773,12 @@ To change the percentage (no restart required):
         <translation> 구성된 목표 비율 : &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV는 현재 점검중이라 사용하실수 없습니다.</translation>
+        <source>zGAL is currently disabled due to maintenance.</source>
+        <translation>zGAL는 현재 점검중이라 사용하실수 없습니다.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV는 현재 점검중입니다.</translation>
+        <source>zGAL is currently undergoing maintenance.</source>
+        <translation>zGAL는 현재 점검중입니다.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2865,8 +2865,8 @@ To change the percentage (no restart required):
         <translation>성공적으로 발행됨</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV in </translation>
+        <source> zGAL in </source>
+        <translation> zGAL in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2959,7 +2959,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of PIV to convert to zPIV</comment>
+        <comment>Enter an amount of PIV to convert to zGAL</comment>
         <translation><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -4774,7 +4774,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>수량</translation>
@@ -4784,8 +4784,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -5436,11 +5436,11 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>자동생성 zPIV 비율  (1-100, default: %u)</translation>
+        <translation>자동생성 zGAL 비율  (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>PIV 및 zPIV 공급량 다시 색인</translation>
+        <source>Reindex the PIV and zGAL money supply statistics</source>
+        <translation>PIV 및 zGAL 공급량 다시 색인</translation>
     </message>
     <message>
         <source>SwiftX options:</source>
@@ -6180,7 +6180,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>지갑에 zPIV 가 부족합니다.</translation>
+        <translation>지갑에 zGAL 가 부족합니다.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>

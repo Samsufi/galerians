@@ -433,8 +433,8 @@
         <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Operazioni di privacy per zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Operazioni di privacy per zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1612,8 +1612,8 @@ MultiSend: %1</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Attiva Autoconio zPIV</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Attiva Autoconio zGAL</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1675,8 +1675,8 @@ MultiSend: %1</translation>
         <translation>Non maturi:</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>Bilancio zPIV</translation>
+        <source>zGAL Balance</source>
+        <translation>Bilancio zGAL</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1752,8 +1752,8 @@ MultiSend: %1</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>0.000 000 00 PIV</source>
@@ -1780,8 +1780,8 @@ MultiSend: %1</translation>
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>Controllo zPIV</translation>
+        <source>zGAL Control</source>
+        <translation>Controllo zGAL</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1796,8 +1796,8 @@ MultiSend: %1</translation>
         <translation>Bilancio Disponibile:</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -1976,8 +1976,8 @@ MultiSend: %1</translation>
         <translation>Copia ammontare</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>Conio zPIV</translation>
+        <source>zGAL Mint</source>
+        <translation>Conio zGAL</translation>
     </message>
     <message>
         <source>Confirm additional Fees</source>
@@ -2365,14 +2365,14 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     </context>
 <context>

@@ -397,8 +397,8 @@
         <translation>Pregledajte povijest transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Aktivnosti na privatnost za zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Aktivnosti na privatnost za zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1345,7 +1345,7 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

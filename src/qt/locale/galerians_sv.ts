@@ -433,8 +433,8 @@
         <translation>Bläddra i transaktions historiken</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Integritets funktioner för zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Integritets funktioner för zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1891,28 +1891,28 @@ https://www.transifex.com/galerians-project/galerians-project-translations</sour
 https://www.transifex.com/galerians-project/galerians-project-translations</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Tillåt automatisk minting med PIV enheter till zPIV</translation>
+        <source>Enable automatic minting of PIV units to zGAL</source>
+        <translation>Tillåt automatisk minting med PIV enheter till zGAL</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Tillåt zPIV Automint</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Tillåt zGAL Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent av inkommande PIV som automatiskt konverteras till zPIV via Zerocoin Protokollet (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent av inkommande PIV som automatiskt konverteras till zGAL via Zerocoin Protokollet (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procent av automintade zPIV</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Procent av automintade zGAL</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många PIV för denna valör är tillgängliga</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Automint zPIV valör som föredras</translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Automint zGAL valör som föredras</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2058,14 +2058,14 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Ditt nuvarande GAL saldo, obekräftade och omogna transaktioner är inkluderade</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Saldo</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL Saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zGAL are spendable.</source>
         <translation>Mogna: över 20 bekräftelser och över 1 mint av samma valör efter den blev mintad
-Dessa zPIV kan spenderas.</translation>
+Dessa zGAL kan spenderas.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2118,8 +2118,8 @@ Omogna: bekräftade men under 1 mint av samma valör efter den blev mintad</tran
         <translation>Spenderbart:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Låsta PIV eller huvudnod säkerheter. Dessa är uteslutna från zPIV minting.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Låsta PIV eller huvudnod säkerheter. Dessa är uteslutna från zGAL minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2130,8 +2130,8 @@ Omogna: bekräftade men under 1 mint av samma valör efter den blev mintad</tran
         <translation>Obekräftade:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Ditt nuvarande zPIV saldo, obekräftade och omogna zPIV inräknade.</translation>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
+        <translation>Ditt nuvarande zGAL saldo, obekräftade och omogna zGAL inräknade.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2142,10 +2142,10 @@ Omogna: bekräftade men under 1 mint av samma valör efter den blev mintad</tran
         <translation>osynkroniserad</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuvarande procent zPIV.
+        <translation>Nuvarande procent zGAL.
 Om AutoMint är tillåten så kommer denna procent sätta sig runt den konfigurerade AutoMint procenten (standard = 10%).
 </translation>
     </message>
@@ -2289,8 +2289,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i g
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2341,16 +2341,16 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i g
         <translation>SEKRETESS</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
-        <translation>Mata in en mängd PIV att konvertera till zPIV</translation>
+        <source>Enter an amount of Piv to convert to zGAL</source>
+        <translation>Mata in en mängd PIV att konvertera till zGAL</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Kontroll</translation>
+        <source>zGAL Control</source>
+        <translation>zGAL Kontroll</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV Valda:</translation>
+        <source>zGAL Selected:</source>
+        <translation>zGAL Valda:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2365,24 +2365,24 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i g
         <translation>Spendera Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Tillgängliga (mogna och spenderbara) zPIV att spendera</translation>
+        <source>Available (mature and spendable) zGAL for spending</source>
+        <translation>Tillgängliga (mogna och spenderbara) zGAL att spendera</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Tillgängligt Saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tillgängliga (mogna och spenderbara) zPIV att spendera
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tillgängliga (mogna och spenderbara) zGAL att spendera
 
-zPIV är mogna när de har över 20 bekräftelser OCH över 2 mints av samma valör efter de mintades.</translation>
+zGAL är mogna när de har över 20 bekräftelser OCH över 2 mints av samma valör efter de mintades.</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2445,8 +2445,8 @@ zPIV är mogna när de har över 20 bekräftelser OCH över 2 mints av samma val
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Totalt Saldo, obekräftade och omogna zPIV inkluderade</translation>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
+        <translation>Totalt Saldo, obekräftade och omogna zGAL inkluderade</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2467,24 +2467,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Omogna: bekräftade men under 1 mint av samma valör efter den blev mintad</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zGAL minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to galerians.conf
 - disable: add 'enablezeromint=0' to galerians.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zGAL
 
 </source>
-        <translation>Visa den nuvarande statusen av automatisk zPIV minting.
+        <translation>Visa den nuvarande statusen av automatisk zGAL minting.
 
 För att ändra statusen (omstart krävs):
 -aktivera: lägg till 'enablezeromint=1' i galerians.conf
 -inaktivera: lägg till 'enablezeromint=0' i galerians.conf
 
 För att ändra procenten (ingen omstart krävs):
--meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zPIV
+-meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zGAL
 
 </translation>
     </message>
@@ -2661,12 +2661,12 @@ För att ändra procenten (ingen omstart krävs):
         <translation>Kopiera antal</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV spendering #:</translation>
+        <source>zGAL Spend #: </source>
+        <translation>zGAL spendering #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Mint</translation>
+        <source>zGAL Mint</source>
+        <translation>zGAL Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2681,12 +2681,12 @@ För att ändra procenten (ingen omstart krävs):
         <translation>Konfigurerat mål för procenten: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV är för nuvarande inaktiverat p.g.a. underhållning.</translation>
+        <source>zGAL is currently disabled due to maintenance.</source>
+        <translation>zGAL är för nuvarande inaktiverat p.g.a. underhållning.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV genomgår för tillfället underhåll.</translation>
+        <source>zGAL is currently undergoing maintenance.</source>
+        <translation>zGAL genomgår för tillfället underhåll.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2773,8 +2773,8 @@ För att ändra procenten (ingen omstart krävs):
         <translation>Mintad med Framgång</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation>zPIV i</translation>
+        <source> zGAL in </source>
+        <translation>zGAL i</translation>
     </message>
     <message>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
@@ -2835,12 +2835,12 @@ Datorkraftskrävande, kan behöva flera minuter beroende på den valda säkerhet
 Var god dröjj...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zPIV kräver en säkerhetsnivå på 100 för att kunna spenderas med framgång.</translation>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zGAL kräver en säkerhetsnivå på 100 för att kunna spenderas med framgång.</translation>
     </message>
     <message>
-        <source>Failed to spend zPIV</source>
-        <translation>Misslyckades att spendera zPIV</translation>
+        <source>Failed to spend zGAL</source>
+        <translation>Misslyckades att spendera zGAL</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2868,7 +2868,7 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of PIV to convert to zPIV</comment>
+        <comment>Enter an amount of PIV to convert to zGAL</comment>
         <translation><numerusform>SekretessRuta</numerusform><numerusform>SekretessRuta</numerusform></translation>
     </message>
     <message>
@@ -3157,8 +3157,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Skräddarsydd Backup Sökväg:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Skräddarsydd zPIV Backup Sökväg:</translation>
+        <source>Custom zGAL Backup Path:</source>
+        <translation>Skräddarsydd zGAL Backup Sökväg:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -4305,8 +4305,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>PIV stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zGAL Stake</source>
+        <translation>zGAL Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4321,32 +4321,32 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Förvirring Gör Kollateral Inmatning</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Konvertera PIV till zPIV</translation>
+        <source>Converted PIV to zGAL</source>
+        <translation>Konvertera PIV till zGAL</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Spendera zPIV</translation>
+        <source>Spent zGAL</source>
+        <translation>Spendera zGAL</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Mottog PIV från zPIV</translation>
+        <source>Received PIV from zGAL</source>
+        <translation>Mottog PIV från zGAL</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Mintad Växel som zPIV från zPIV Spendera</translation>
+        <source>Minted Change as zGAL from zGAL Spend</source>
+        <translation>Mintad Växel som zGAL från zGAL Spendera</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Convert zPIV to PIV</translation>
+        <source>Converted zGAL to PIV</source>
+        <translation>Convert zGAL to PIV</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonym (zPIV Transaktion)</translation>
+        <source>Anonymous (zGAL Transaction)</source>
+        <translation>Anonym (zGAL Transaktion)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonym (zPIV Stake)</translation>
+        <source>Anonymous (zGAL Stake)</source>
+        <translation>Anonym (zGAL Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4552,12 +4552,12 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Exportering Lyckat</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Mottog PIV från zPIV</translation>
+        <source>Received PIV from zGAL</source>
+        <translation>Mottog PIV från zGAL</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin spendera, Växel i zPIV</translation>
+        <source>Zerocoin Spend, Change in zGAL</source>
+        <translation>Zerocoin spendera, Växel i zGAL</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4625,10 +4625,10 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Välj zPIV att Spendera</translation>
+        <source>Select zGAL to Spend</source>
+        <translation>Välj zGAL att Spendera</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4639,8 +4639,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4706,16 +4706,16 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Distribuerad under MIT mjukvarulicensen, se medföljande fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Aktivera automatisk plånboksbackup efter varje zPIV minting (0-1, standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zGAL minting (0-1, default: %u)</source>
+        <translation>Aktivera automatisk plånboksbackup efter varje zGAL minting (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
         <translation>Aktivera eller avaktivera staking funktionalitet för PIV inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för zPIV inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zGAL inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för zGAL inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5254,8 +5254,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Verifierar plånbok</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zPIV kräver en säkerhetsnivå på 100 för att kunna spenderas med framgång.</translation>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zGAL kräver en säkerhetsnivå på 100 för att kunna spenderas med framgång.</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>

@@ -433,8 +433,8 @@
         <translation>Vis transaktionshistorik</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Beskyttelse af personlige oplysninger for zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Beskyttelse af personlige oplysninger for zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1948,28 +1948,28 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Aktivér automatisk mintning af PIV-enheder til zPIV</translation>
+        <source>Enable automatic minting of PIV units to zGAL</source>
+        <translation>Aktivér automatisk mintning af PIV-enheder til zGAL</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Aktivér zPIV Automint</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Aktivér zGAL Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentdelen af indkommende PIV, som automatisk konverteres til zPIV via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentdelen af indkommende PIV, som automatisk konverteres til zGAL via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procentdel af automatiseret zPIV</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Procentdel af automatiseret zGAL</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Vent med automatisk konvertering til Zerocoin, indtil nok PIV til denne betegnelse er tilgængelig</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Foretrukket Automint zPIV Denomination</translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Foretrukket Automint zGAL Denomination</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2159,8 +2159,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Din nuværende GAL-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV-saldo</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL-saldo</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GAL network after a connection is established, but this process has not completed yet.</source>
@@ -2207,8 +2207,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Brugbare:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Låste PIV eller Masternode collaterals. Disse er udelukket fra zPIV-mintning.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Låste PIV eller Masternode collaterals. Disse er udelukket fra zGAL-mintning.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2219,8 +2219,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Ubekræftet:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Din nuværende zPIV-saldo, ubekræftede og umodne zPIV inkluderet.</translation>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
+        <translation>Din nuværende zGAL-saldo, ubekræftede og umodne zGAL inkluderet.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2231,10 +2231,10 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Ude af synk</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuværende procentdel af zPIV
+        <translation>Nuværende procentdel af zGAL
 Hvis AutoMint er aktiveret, vil denne procentdel sætte sig omkring den konfigurerede AutoMint-procent (default = 10%)</translation>
     </message>
     <message>
@@ -2377,8 +2377,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2441,24 +2441,24 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Tilbring Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Tilgængelig (moden og brugt) zPIV for udgifter</translation>
+        <source>Available (mature and spendable) zGAL for spending</source>
+        <translation>Tilgængelig (moden og brugt) zGAL for udgifter</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Disponibel saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tilgængelig (moden og brugt) zPIV for spending
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tilgængelig (moden og brugt) zGAL for spending
 
-zPIV er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
+zGAL er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2529,8 +2529,8 @@ zPIV er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Samlet saldo inklusive ubekræftede og umodne zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
+        <translation>Samlet saldo inklusive ubekræftede og umodne zGAL</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2545,24 +2545,24 @@ zPIV er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med 
         <translation>DENOM. med værdi 1:</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zGAL minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to galerians.conf
 - disable: add 'enablezeromint=0' to galerians.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zGAL
 
 </source>
-        <translation>Vis den aktuelle status for automatisk zPIV minting.øj
+        <translation>Vis den aktuelle status for automatisk zGAL minting.øj
 
 For at ændre status (genstart kræves):.
 - aktiver: tilføj 'enablezeromint = 1' til galerians.conf
 - deaktiver: tilføj 'enablezeromint = 0' til galerians.conf
 
 For at ændre procentdelen (ingen genstart kræves):.
-- menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zPIV
+- menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zGAL
 </translation>
     </message>
     <message>
@@ -2750,12 +2750,12 @@ For at ændre procentdelen (ingen genstart kræves):.
         <translation>Konfigureret målprocent:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
+        <source>zGAL is currently disabled due to maintenance.</source>
+        <translation>zGAL er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV er i øjeblikket under opretholdelse.</translation>
+        <source>zGAL is currently undergoing maintenance.</source>
+        <translation>zGAL er i øjeblikket under opretholdelse.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2842,8 +2842,8 @@ For at ændre procentdelen (ingen genstart kræves):.
         <translation>Mynt succesfuldt</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV i</translation>
+        <source> zGAL in </source>
+        <translation> zGAL i</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -4745,7 +4745,7 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Antal</translation>
@@ -4755,8 +4755,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -5411,8 +5411,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Procentdel af automatisk mintede Zerocoin (10-100, standard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Reindex PIV og zPIV pengemængde statistikker</translation>
+        <source>Reindex the PIV and zGAL money supply statistics</source>
+        <translation>Reindex PIV og zGAL pengemængde statistikker</translation>
     </message>
     <message>
         <source>SwiftX options:</source>

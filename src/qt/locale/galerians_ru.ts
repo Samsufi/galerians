@@ -433,7 +433,7 @@
         <translation>Просмотр истории транзакций</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
+        <source>Privacy Actions for zGAL</source>
         <translation>Действия конфиденциальности для зпив</translation>
     </message>
     <message>
@@ -1948,28 +1948,28 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Невозможно автоматически отчеканить единицы PIV для zPIV</translation>
+        <source>Enable automatic minting of PIV units to zGAL</source>
+        <translation>Невозможно автоматически отчеканить единицы PIV для zGAL</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Невозможно авточеканка  zPIV</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Невозможно авточеканка  zGAL</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих PIV, которые автоматически конвертируются в zPIV благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих PIV, которые автоматически конвертируются в zGAL благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Процент  авточеканненых zPIV</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Процент  авточеканненых zGAL</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно PIV для этой номинации.</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zPIV</translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zGAL</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2159,8 +2159,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Ваш текущий GAL  баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>Баланс zPIV</translation>
+        <source>zGAL Balance</source>
+        <translation>Баланс zGAL</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GAL network after a connection is established, but this process has not completed yet.</source>
@@ -2207,8 +2207,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Заблокированно дополнительное обеспечение PIV или Masternode. Они исключены из чеканки zPIV.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Заблокированно дополнительное обеспечение PIV или Masternode. Они исключены из чеканки zGAL.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2219,8 +2219,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Неподтвержденный:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Ваш текущий zPIV баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
+        <translation>Ваш текущий zGAL баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2231,10 +2231,10 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>несинронизировано</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Текущий процент от zPIV.
+        <translation>Текущий процент от zGAL.
 Если АвтоЧеканка включена, этот процент будет располагаться на настроенном проценте АвтоЧеканка  (по умолчанию = 10%).
 </translation>
     </message>
@@ -2374,8 +2374,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in galerians.
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2438,24 +2438,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in galerians.
         <translation>Потратить Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Доступный (зрелый и расходуемый) zPIV для расходов</translation>
+        <source>Available (mature and spendable) zGAL for spending</source>
+        <translation>Доступный (зрелый и расходуемый) zGAL для расходов</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Доступный Баланс :</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Доступный (зрелый и затратный) zPIV для расходов
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Доступный (зрелый и затратный) zGAL для расходов
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2526,8 +2526,8 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Общий баланс, включая неподтвержденные и незрелые zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
+        <translation>Общий баланс, включая неподтвержденные и незрелые zGAL</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2542,24 +2542,24 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>Номинал со значением 1:</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zGAL minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to galerians.conf
 - disable: add 'enablezeromint=0' to galerians.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zGAL
 
 </source>
-        <translation>Показать текущий статус автоматической чеканки zPIV.
+        <translation>Показать текущий статус автоматической чеканки zGAL.
 
 Чтобы изменить статус (требуется перезагрузка):
 - включить: добавить 'enablezeromint = 1' в galerians.conf
 - отключить: добавить 'enablezeromint = 0' в galerians.conf
 
 Чтобы изменить процент (не требуется перезагрузка):
-- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zPIV</translation>
+- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zGAL</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2746,12 +2746,12 @@ To change the percentage (no restart required):
         <translation> Настроенный целевой процент: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV в настоящее время отключен от обслуживания.</translation>
+        <source>zGAL is currently disabled due to maintenance.</source>
+        <translation>zGAL в настоящее время отключен от обслуживания.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>В настоящее время zPIV проходит техническое обслуживание.</translation>
+        <source>zGAL is currently undergoing maintenance.</source>
+        <translation>В настоящее время zGAL проходит техническое обслуживание.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2838,8 +2838,8 @@ To change the percentage (no restart required):
         <translation>Создан успешно</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV в</translation>
+        <source> zGAL in </source>
+        <translation> zGAL в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -4742,7 +4742,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Количество</translation>
@@ -4752,8 +4752,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -5407,8 +5407,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Процент автоматически отчеканенного Zerocoin (1-100, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Reindex статистика денежной массы PIV и zPIV</translation>
+        <source>Reindex the PIV and zGAL money supply statistics</source>
+        <translation>Reindex статистика денежной массы PIV и zGAL</translation>
     </message>
     <message>
         <source>SwiftX options:</source>

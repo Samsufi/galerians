@@ -23,8 +23,8 @@
 #include "validationinterface.h"
 #include "wallet_ismine.h"
 #include "walletdb.h"
-#include "zpivwallet.h"
-#include "zpivtracker.h"
+#include "zgalwallet.h"
+#include "zgaltracker.h"
 
 #include <algorithm>
 #include <map>
@@ -89,25 +89,25 @@ enum AvailableCoinsType {
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zPIV send
+// Possible states for zGAL send
 enum ZerocoinSpendStatus {
-    ZPIV_SPEND_OKAY = 0,                            // No error
-    ZPIV_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZPIV_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZPIV_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZPIV_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZPIV_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZPIV_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZPIV_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZPIV_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZPIV_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZPIV_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZPIV_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZPIV_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZPIV_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZPIV_SPENT_USED_ZPIV = 14,                      // Coin has already been spend
-    ZPIV_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
-    ZPIV_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
+    ZGAL_SPEND_OKAY = 0,                            // No error
+    ZGAL_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZGAL_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZGAL_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZGAL_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZGAL_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZGAL_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZGAL_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZGAL_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZGAL_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZGAL_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZGAL_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZGAL_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZGAL_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZGAL_SPENT_USED_ZGAL = 14,                      // Coin has already been spend
+    ZGAL_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
+    ZGAL_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
 };
 
 struct CompactTallyItem {
@@ -213,15 +213,15 @@ public:
     std::string ResetMintZerocoin();
     std::string ResetSpentZerocoin();
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored, std::list<CDeterministicMint>& listDMintsRestored);
-    void ZPivBackupWallet();
+    void ZGalBackupWallet();
     bool GetZerocoinKey(const CBigNum& bnSerial, CKey& key);
-    bool CreateZPIVOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
+    bool CreateZGALOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
     bool GetMint(const uint256& hashSerial, CZerocoinMint& mint);
     bool GetMintFromStakeHash(const uint256& hashStake, CZerocoinMint& mint);
     bool DatabaseMint(CDeterministicMint& dMint);
     bool SetMintUnspent(const CBigNum& bnSerial);
     bool UpdateMint(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const libzerocoin::CoinDenomination& denom);
-    string GetUniqueWalletBackupName(bool fzpivAuto) const;
+    string GetUniqueWalletBackupName(bool fzgalAuto) const;
 
 
     /** Zerocin entry changed.
@@ -237,13 +237,13 @@ public:
      */
     mutable CCriticalSection cs_wallet;
 
-    CzPIVWallet* zwalletMain;
+    CzGALWallet* zwalletMain;
 
     bool fFileBacked;
     bool fWalletUnlockAnonymizeOnly;
     std::string strWalletFile;
     bool fBackupMints;
-    std::unique_ptr<CzPIVTracker> zpivTracker;
+    std::unique_ptr<CzGALTracker> zgalTracker;
 
     std::set<int64_t> setKeyPool;
     std::map<CKeyID, CKeyMetadata> mapKeyMetadata;
@@ -328,20 +328,20 @@ public:
         return nZeromintPercentage;
     }
 
-    void setZWallet(CzPIVWallet* zwallet)
+    void setZWallet(CzGALWallet* zwallet)
     {
         zwalletMain = zwallet;
-        zpivTracker = std::unique_ptr<CzPIVTracker>(new CzPIVTracker(strWalletFile));
+        zgalTracker = std::unique_ptr<CzGALTracker>(new CzGALTracker(strWalletFile));
     }
 
-    CzPIVWallet* getZWallet() { return zwalletMain; }
+    CzGALWallet* getZWallet() { return zwalletMain; }
 
     bool isZeromintEnabled()
     {
         return fEnableZeromint;
     }
 
-    void setZPivAutoBackups(bool fEnabled)
+    void setZGalAutoBackups(bool fEnabled)
     {
         fBackupMints = fEnabled;
     }
@@ -669,8 +669,8 @@ public:
     /** MultiSig address added */
     boost::signals2::signal<void(bool fHaveMultiSig)> NotifyMultiSigChanged;
 
-    /** zPIV reset */
-    boost::signals2::signal<void()> NotifyzPIVReset;
+    /** zGAL reset */
+    boost::signals2::signal<void()> NotifyzGALReset;
 
     /** notify wallet file backed up */
     boost::signals2::signal<void (const bool& fSuccess, const std::string& filename)> NotifyWalletBacked;

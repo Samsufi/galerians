@@ -433,8 +433,8 @@
         <translation>Blader door transactiegescheidenis</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Privacy Acties voor zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Privacy Acties voor zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1948,28 +1948,28 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Schakel automatisch slaan van PIV-eenheden in op zPIV</translation>
+        <source>Enable automatic minting of PIV units to zGAL</source>
+        <translation>Schakel automatisch slaan van PIV-eenheden in op zGAL</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Schakel zPIV Automint in</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Schakel zGAL Automint in</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende PIV die automatisch wordt omgezet naar zPIV via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende PIV die automatisch wordt omgezet naar zGAL via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Percentage autominted zPIV</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Percentage autominted zGAL</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg PIV voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Gewenste Automint zPIV denominatie</translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Gewenste Automint zGAL denominatie</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2159,12 +2159,12 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Uw huidige GAL-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV-saldo</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zGAL are spendable.</source>
         <translation>Volwassen: meer dan 20 bevestigingen en meer dan 1 mint van dezelfde denominatie nadat het gemint was.
 Deze zPIB zijn besteedbaar.</translation>
     </message>
@@ -2219,8 +2219,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Uitgeefbaar:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Vergrendelde PIV of Masternode onderpanden. Deze zijn uitgesloten van de zPIV muntage.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Vergrendelde PIV of Masternode onderpanden. Deze zijn uitgesloten van de zGAL muntage.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2231,8 +2231,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Onbevestigd:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Uw huidige zPIV-saldo, onbevestigde en onvolgroeide zPIV inbegrepen.</translation>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
+        <translation>Uw huidige zGAL-saldo, onbevestigde en onvolgroeide zGAL inbegrepen.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2243,10 +2243,10 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>niet gesynchroniseerd</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Huidige percentage van zPIV
+        <translation>Huidige percentage van zGAL
 Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde AutoMint percentage (standaard = 10%).
 </translation>
     </message>
@@ -2390,8 +2390,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2442,16 +2442,16 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
-        <translation>Vul het aantal PIV in om te converteren naar zPIV</translation>
+        <source>Enter an amount of Piv to convert to zGAL</source>
+        <translation>Vul het aantal PIV in om te converteren naar zGAL</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Control</translation>
+        <source>zGAL Control</source>
+        <translation>zGAL Control</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV geselecteerd:</translation>
+        <source>zGAL Selected:</source>
+        <translation>zGAL geselecteerd:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2466,24 +2466,24 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Besteed Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Beschikbare (volwassen en uitgeefbaar) zPIV voor besteding</translation>
+        <source>Available (mature and spendable) zGAL for spending</source>
+        <translation>Beschikbare (volwassen en uitgeefbaar) zGAL voor besteding</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Beschikbaar saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Beschikbare (volwwassen en uitgeefbaar) zPIV voor besteding
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Beschikbare (volwwassen en uitgeefbaar) zGAL voor besteding
 
-zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
+zGal zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2554,8 +2554,8 @@ zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 m
         <translation>Zerocoin Statistieken:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
+        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zGAL</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2576,24 +2576,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zGAL minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to galerians.conf
 - disable: add 'enablezeromint=0' to galerians.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zGAL
 
 </source>
-        <translation>Toon de huidige status van automatische zPIV-markering.
+        <translation>Toon de huidige status van automatische zGAL-markering.
 
 Om de status te wijzigen (opnieuw opstarten vereist): 
 - enable: voeg 'enablezeromint = 1' toe aan galerians.conf
 - uitschakelen: voeg 'enablezeromint = 0' toe aan galerians.conf
 
 Om het percentage te wijzigen (geen herstart vereist): 
-- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zPIV
+- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zGAL
 </translation>
     </message>
     <message>
@@ -2769,12 +2769,12 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation>Kopieer hoeveelheid</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV besteed #:</translation>
+        <source>zGAL Spend #: </source>
+        <translation>zGAL besteed #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV mint</translation>
+        <source>zGAL Mint</source>
+        <translation>zGAL mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2789,12 +2789,12 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation>Geconfigureerd doelpercentage:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV is momenteel uitgeschakeld vanwege onderhoud.</translation>
+        <source>zGAL is currently disabled due to maintenance.</source>
+        <translation>zGAL is momenteel uitgeschakeld vanwege onderhoud.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV wordt momenteel onderhouden.</translation>
+        <source>zGAL is currently undergoing maintenance.</source>
+        <translation>zGAL wordt momenteel onderhouden.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2881,8 +2881,8 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation>Succesvol gemint</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV in </translation>
+        <source> zGAL in </source>
+        <translation> zGAL in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2956,12 +2956,12 @@ hardware.
 Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Versie 1 zPIV vereist een beveiligingsniveau van 100 om succesvol te besteden.</translation>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
+        <translation>Versie 1 zGAL vereist een beveiligingsniveau van 100 om succesvol te besteden.</translation>
     </message>
     <message>
-        <source>Failed to spend zPIV</source>
-        <translation>Mislukt om zPIV te besteden.</translation>
+        <source>Failed to spend zGAL</source>
+        <translation>Mislukt om zGAL te besteden.</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2989,7 +2989,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of PIV to convert to zPIV</comment>
+        <comment>Enter an amount of PIV to convert to zGAL</comment>
         <translation><numerusform>PrivacyDialoog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3306,8 +3306,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Aangepast back-up pad:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Aangepast zPIV back-up pad:</translation>
+        <source>Custom zGAL Backup Path:</source>
+        <translation>Aangepast zGAL back-up pad:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -4530,8 +4530,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>PIV Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zGAL Stake</source>
+        <translation>zGAL Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4550,32 +4550,32 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verduistering creëert denominaties</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Geconverteerde PIV naar zPIV</translation>
+        <source>Converted PIV to zGAL</source>
+        <translation>Geconverteerde PIV naar zGAL</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Bestede zPIV</translation>
+        <source>Spent zGAL</source>
+        <translation>Bestede zGAL</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Ontvangen PIV van zPIV</translation>
+        <source>Received PIV from zGAL</source>
+        <translation>Ontvangen PIV van zGAL</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Gemint wisselgeld als zPIV van bestede zPIV</translation>
+        <source>Minted Change as zGAL from zGAL Spend</source>
+        <translation>Gemint wisselgeld als zGAL van bestede zGAL</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Geconverteerde zPIV naar PIV</translation>
+        <source>Converted zGAL to PIV</source>
+        <translation>Geconverteerde zGAL naar PIV</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonieme (zPIV transactie)</translation>
+        <source>Anonymous (zGAL Transaction)</source>
+        <translation>Anonieme (zGAL transactie)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonieme (zPIV stake)</translation>
+        <source>Anonymous (zGAL Stake)</source>
+        <translation>Anonieme (zGAL stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4785,12 +4785,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Exporteren succesvol</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Ontvangen PIV van zPIV</translation>
+        <source>Received PIV from zGAL</source>
+        <translation>Ontvangen PIV van zGAL</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin besteed, wisselgeld in zPIV</translation>
+        <source>Zerocoin Spend, Change in zGAL</source>
+        <translation>Zerocoin besteed, wisselgeld in zGAL</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4858,10 +4858,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Selecteer zPIV om te besteden</translation>
+        <source>Select zGAL to Spend</source>
+        <translation>Selecteer zGAL om te besteden</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4872,8 +4872,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4939,16 +4939,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zPIV (0-1, standaard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zGAL minting (0-1, default: %u)</source>
+        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zGAL (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
         <translation>In- of uitschakelen staking functionaliteit voor PIV inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor zPIV inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for zGAL inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor zGAL inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5543,8 +5543,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Indexeer de PIV- en zPIV-geldvoorraadstatistieken opnieuw</translation>
+        <source>Reindex the PIV and zGAL money supply statistics</source>
+        <translation>Indexeer de PIV- en zGAL-geldvoorraadstatistieken opnieuw</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5619,8 +5619,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zPIV back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
+        <source>Specify custom backup path to add a copy of any automatic zGAL backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zGAL back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6119,8 +6119,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Synchroniseren sporks...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Synchroniseren zPIV portemonnee...</translation>
+        <source>Syncing zGAL wallet...</source>
+        <translation>Synchroniseren zGAL portemonnee...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6267,8 +6267,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Gebruikersnaam voor JSON-RPC verbindingen</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zGAL</source>
+        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zGAL</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6283,8 +6283,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Portemonnee verifiëren...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Versie 1 zPIV vereist een beveiligingsniveau van 100 om succesvol uit te geven.</translation>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
+        <translation>Versie 1 zGAL vereist een beveiligingsniveau van 100 om succesvol uit te geven.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>

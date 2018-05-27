@@ -433,8 +433,8 @@
         <translation>Pregled povijesti transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Postavke privatnosti za zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Postavke privatnosti za zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1948,28 +1948,28 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
 </translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Omogućite automint PIV jedinica na zPIV</translation>
+        <source>Enable automatic minting of PIV units to zGAL</source>
+        <translation>Omogućite automint PIV jedinica na zGAL</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Omogući zPIV Automint</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Omogući zGAL Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih PIV koji se automatski pretvara u zPIV putem protokola Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih PIV koji se automatski pretvara u zGAL putem protokola Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Postotak automatiziranog zPIV</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Postotak automatiziranog zGAL</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno PIV za apoen</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferirana Automint zPIV denominacijad</translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Preferirana Automint zGAL denominacijad</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2159,14 +2159,14 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Uključena je vaša trenutna bilanca GAL, nepotvrđene i nezrele transakcije</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Bilanca</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL Bilanca</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zGAL are spendable.</source>
         <translation>Mature: više od 20 potvrda i više od 1 mint od iste denominacije nakon što je mintan.
-Ti zPIVs se mogu potrošiti.</translation>
+Ti zGALs se mogu potrošiti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2219,8 +2219,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Po potrošiti:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Zaključani PIV ili Masternode kolateral. Oni su isključeni iz zPIV kovanja.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Zaključani PIV ili Masternode kolateral. Oni su isključeni iz zGAL kovanja.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2231,8 +2231,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Nepotvrđeno:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Vaša trenutačna zPIV bilanca, nepotvrđena i nezrela zPIV.</translation>
+        <source>Your current zGAL balance, unconfirmed and immature zGAL included.</source>
+        <translation>Vaša trenutačna zGAL bilanca, nepotvrđena i nezrela zGAL.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2243,10 +2243,10 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>nije sinkronizirano</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zGAL.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Trenutni postotak zPIV.
+        <translation>Trenutni postotak zGAL.
 Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konfiguriranog postotka automatskog navođenja (zadano = 10%).
 </translation>
     </message>
@@ -2390,8 +2390,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2442,16 +2442,16 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>PRIVATNOST</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
-        <translation>Unesite iznos Piv za pretvorbu u zPIV</translation>
+        <source>Enter an amount of Piv to convert to zGAL</source>
+        <translation>Unesite iznos Piv za pretvorbu u zGAL</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>Upravljanje zPIV</translation>
+        <source>zGAL Control</source>
+        <translation>Upravljanje zGAL</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV Odabrani:</translation>
+        <source>zGAL Selected:</source>
+        <translation>zGAL Odabrani:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2466,24 +2466,24 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Potroši Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Dostupni (zreli) zPIV za potrošnju</translation>
+        <source>Available (mature and spendable) zGAL for spending</source>
+        <translation>Dostupni (zreli) zGAL za potrošnju</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Dostupna Bilanca:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zGAL for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Dostupni (zreli) zPIV za potrošnju
+zGAL are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Dostupni (zreli) zGAL za potrošnju
 
-zPIV su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
+zGAL su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2554,8 +2554,8 @@ zPIV su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominac
         <translation>Statistike Zerocoina:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zGAL</source>
+        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zGAL</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2576,24 +2576,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zGAL minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to galerians.conf
 - disable: add 'enablezeromint=0' to galerians.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zGAL
 
 </source>
-        <translation>Pokažite trenutačni status automatskog zPIV mintanja.
+        <translation>Pokažite trenutačni status automatskog zGAL mintanja.
 
 Da biste promijenili status (potrebno je ponovno pokretanje):
 - omogući: dodajte 'enablezeromint = 1' u galerians.conf
 - onemogućiti: dodajte 'enablezeromint = 0' na galerians.conf
 
 Promjena postotka (nije potrebno ponovno pokretanje):
-- izbornik Postavke-&gt; Opcije-&gt; Postotak zPIV</translation>
+- izbornik Postavke-&gt; Opcije-&gt; Postotak zGAL</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2768,12 +2768,12 @@ Promjena postotka (nije potrebno ponovno pokretanje):
         <translation>Kopiraj iznos</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV utrošeno #: </translation>
+        <source>zGAL Spend #: </source>
+        <translation>zGAL utrošeno #: </translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Mint</translation>
+        <source>zGAL Mint</source>
+        <translation>zGAL Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2788,12 +2788,12 @@ Promjena postotka (nije potrebno ponovno pokretanje):
         <translation> Konfigirani ciljani postotak: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>Zbog održavanja zPIV je trenutačno onemogućen.</translation>
+        <source>zGAL is currently disabled due to maintenance.</source>
+        <translation>Zbog održavanja zGAL je trenutačno onemogućen.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zPIV.</translation>
+        <source>zGAL is currently undergoing maintenance.</source>
+        <translation>Radovi u tijeku na zGAL.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2880,8 +2880,8 @@ Promjena postotka (nije potrebno ponovno pokretanje):
         <translation>Uspješno mintano</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> ulazni zPIV </translation>
+        <source> zGAL in </source>
+        <translation> ulazni zGAL </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2952,12 +2952,12 @@ Zahtjevan izračun, možda će trebati nekoliko minuta ovisno o odabranoj razini
 Budite strpljivi ...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Verzija 1 zPIV zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
+        <translation>Verzija 1 zGAL zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
     </message>
     <message>
-        <source>Failed to spend zPIV</source>
-        <translation>Neuspjelo trošenje zPIV</translation>
+        <source>Failed to spend zGAL</source>
+        <translation>Neuspjelo trošenje zGAL</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2984,7 +2984,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of PIV to convert to zPIV</comment>
+        <comment>Enter an amount of PIV to convert to zGAL</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3302,8 +3302,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Prilagođeni put zPIV sigurnosne kopije:</translation>
+        <source>Custom zGAL Backup Path:</source>
+        <translation>Prilagođeni put zGAL sigurnosne kopije:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -4530,8 +4530,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>PIV Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zGAL Stake</source>
+        <translation>zGAL Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4550,32 +4550,32 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Prikrivanje Stvara Denominacije</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Pretvoreni PIV u zPIV</translation>
+        <source>Converted PIV to zGAL</source>
+        <translation>Pretvoreni PIV u zGAL</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Utrošeni zPIV</translation>
+        <source>Spent zGAL</source>
+        <translation>Utrošeni zGAL</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Primljeni PIV od zPIV</translation>
+        <source>Received PIV from zGAL</source>
+        <translation>Primljeni PIV od zGAL</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Mintana razlika zPIV od zPIV Utroška</translation>
+        <source>Minted Change as zGAL from zGAL Spend</source>
+        <translation>Mintana razlika zGAL od zGAL Utroška</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Pretvoreni zPIV u PIV</translation>
+        <source>Converted zGAL to PIV</source>
+        <translation>Pretvoreni zGAL u PIV</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonimno (zPIV Transakcija)</translation>
+        <source>Anonymous (zGAL Transaction)</source>
+        <translation>Anonimno (zGAL Transakcija)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonimno (zPIV Stake)</translation>
+        <source>Anonymous (zGAL Stake)</source>
+        <translation>Anonimno (zGAL Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4785,12 +4785,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Izvoz uspješan</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Primljeni PIV od zPIV</translation>
+        <source>Received PIV from zGAL</source>
+        <translation>Primljeni PIV od zGAL</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zPIV</translation>
+        <source>Zerocoin Spend, Change in zGAL</source>
+        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zGAL</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4858,10 +4858,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Odabrani zPIV za utrošiti</translation>
+        <source>Select zGAL to Spend</source>
+        <translation>Odabrani zGAL za utrošiti</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4872,8 +4872,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4939,16 +4939,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Distribuirano pod MIT softverskom licencom, pogledajte priloženu datoteku COPYING ili &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zPIV mintanja (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zGAL minting (0-1, default: %u)</source>
+        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zGAL mintanja (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
         <translation>Omogući ili onemogući staking funkcionalnosti za PIV unose (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zPIV unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zGAL inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za zGAL unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5544,8 +5544,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Postotak automatskog kovanog Zerocoina (1-100, zadano: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku PIV i zPIV ponude novca</translation>
+        <source>Reindex the PIV and zGAL money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku PIV i zGAL ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5619,8 +5619,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Preferirana denominacija za automatski ovjereni Zerocoin (1/5/10/50/100/500/1000/5000), 0 bez preferencije. zadana vrijednost: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zPIV sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
+        <source>Specify custom backup path to add a copy of any automatic zGAL backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zGAL sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6119,8 +6119,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Sinkronizacija sporka...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Sinkronizacija zPIV novčanika...</translation>
+        <source>Syncing zGAL wallet...</source>
+        <translation>Sinkronizacija zGAL novčanika...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6267,8 +6267,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Korisničko ime za JSON-RPC veze</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zPIV-a</translation>
+        <source>Value is below the smallest available denomination (= 1) of zGAL</source>
+        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zGAL-a</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6283,8 +6283,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Provjera novčanika...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Verzija 1 zPIV zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
+        <source>Version 1 zGAL require a security level of 100 to successfully spend.</source>
+        <translation>Verzija 1 zGAL zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>

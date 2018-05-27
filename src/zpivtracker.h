@@ -2,15 +2,15 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef GAL_ZPIVTRACKER_H
-#define GAL_ZPIVTRACKER_H
+#ifndef GAL_ZGALTRACKER_H
+#define GAL_ZGALTRACKER_H
 
 #include "primitives/zerocoin.h"
 #include <list>
 
 class CDeterministicMint;
 
-class CzPIVTracker
+class CzGALTracker
 {
 private:
     bool fInitialized;
@@ -19,8 +19,8 @@ private:
     std::map<uint256, uint256> mapPendingSpends; //serialhash, txid of spend
     bool UpdateStatusInternal(const std::set<uint256>& setMempool, CMintMeta& mint);
 public:
-    CzPIVTracker(std::string strWalletFile);
-    ~CzPIVTracker();
+    CzGALTracker(std::string strWalletFile);
+    ~CzGALTracker();
     void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false);
     void Add(const CZerocoinMint& mint, bool isNew = false, bool isArchived = false);
     bool Archive(CMintMeta& meta);
@@ -48,4 +48,4 @@ public:
     void Clear();
 };
 
-#endif //GAL_ZPIVTRACKER_H
+#endif //GAL_ZGALTRACKER_H

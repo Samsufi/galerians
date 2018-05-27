@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>zPIV Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>zGAL Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1842,20 +1842,20 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Įgalinti zPIV Automatinį nukaldinima</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Įgalinti zGAL Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto PIV, kuris automatiškai bus konvertuotas į zPIV naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto PIV, kuris automatiškai bus konvertuotas į zGAL naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Automatiškai sukurtų zPIV procentas</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Automatiškai sukurtų zGAL procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Pageidautinas zPIV Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Pageidautinas zGAL Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
         <source>Connect to the GAL network through a SOCKS5 proxy.</source>
@@ -1993,8 +1993,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Jūsų dabartinis GAL balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Balansas</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL Balansas</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GAL network after a connection is established, but this process has not completed yet.</source>
@@ -2033,8 +2033,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Užrakinti PIV arba Masternode užstatai. Jie yra neįtraukti į zPIV kalimą.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Užrakinti PIV arba Masternode užstatai. Jie yra neįtraukti į zGAL kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2086,8 +2086,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
         <source>0.000 000 00 PIV</source>
@@ -2118,8 +2118,8 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level:</source>
@@ -2979,14 +2979,14 @@ https://www.transifex.com/galerians-project/galerians-project-translations</tran
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     </context>
 <context>

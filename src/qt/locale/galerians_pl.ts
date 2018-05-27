@@ -2021,7 +2021,7 @@ https://www.transifex.com/galerians-project/galerians-project-translations </tra
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZGalControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
