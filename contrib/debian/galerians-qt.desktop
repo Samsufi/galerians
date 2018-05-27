@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GAL
+Comment=GAL P2P Cryptocurrency
+Comment[fr]=GAL, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=GAL, eşten eşe kriptografik sanal para birimi
+Exec=galerians-qt %u
+Terminal=false
+Type=Application
+Icon=galerians128
+MimeType=x-scheme-handler/galerians;
+Categories=Office;Finance;

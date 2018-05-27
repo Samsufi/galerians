@@ -1,0 +1,26 @@
+[Unit]
+Description=GAL's distributed currency daemon
+After=network.target
+
+[Service]
+User=galerians
+Group=galerians
+
+Type=forking
+PIDFile=/var/lib/galeriansd/galeriansd.pid
+
+ExecStart=/usr/bin/galeriansd -daemon -pid=/var/lib/galeriansd/galeriansd.pid \
+          -conf=/etc/galerians/galerians.conf -datadir=/var/lib/galeriansd
+
+ExecStop=-/usr/bin/galerians-cli -conf=/etc/galerians/galerians.conf \
+         -datadir=/var/lib/galeriansd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

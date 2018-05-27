@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2018 The GAL developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -263,11 +263,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop PIVX server.");
+            "\nStop GAL server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "PIVX server stopping";
+    return "GAL server stopping";
 }
 
 
@@ -351,37 +351,37 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* PIVX features */
-        {"pivx", "masternode", &masternode, true, true, false},
-        {"pivx", "listmasternodes", &listmasternodes, true, true, false},
-        {"pivx", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"pivx", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"pivx", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"pivx", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"pivx", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"pivx", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"pivx", "masternodedebug", &masternodedebug, true, true, false},
-        {"pivx", "startmasternode", &startmasternode, true, true, false},
-        {"pivx", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"pivx", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"pivx", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"pivx", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"pivx", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"pivx", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"pivx", "mnbudget", &mnbudget, true, true, false},
-        {"pivx", "preparebudget", &preparebudget, true, true, false},
-        {"pivx", "submitbudget", &submitbudget, true, true, false},
-        {"pivx", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"pivx", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"pivx", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"pivx", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"pivx", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"pivx", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"pivx", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"pivx", "checkbudgets", &checkbudgets, true, true, false},
-        {"pivx", "mnsync", &mnsync, true, true, false},
-        {"pivx", "spork", &spork, true, true, false},
-        {"pivx", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* GAL features */
+        {"galerians", "masternode", &masternode, true, true, false},
+        {"galerians", "listmasternodes", &listmasternodes, true, true, false},
+        {"galerians", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"galerians", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"galerians", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"galerians", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"galerians", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"galerians", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"galerians", "masternodedebug", &masternodedebug, true, true, false},
+        {"galerians", "startmasternode", &startmasternode, true, true, false},
+        {"galerians", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"galerians", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"galerians", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"galerians", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"galerians", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"galerians", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"galerians", "mnbudget", &mnbudget, true, true, false},
+        {"galerians", "preparebudget", &preparebudget, true, true, false},
+        {"galerians", "submitbudget", &submitbudget, true, true, false},
+        {"galerians", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"galerians", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"galerians", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"galerians", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"galerians", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"galerians", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"galerians", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"galerians", "checkbudgets", &checkbudgets, true, true, false},
+        {"galerians", "mnsync", &mnsync, true, true, false},
+        {"galerians", "spork", &spork, true, true, false},
+        {"galerians", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -614,7 +614,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> pivx-cli " + methodname + " " + args + "\n";
+    return "> galerians-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)
